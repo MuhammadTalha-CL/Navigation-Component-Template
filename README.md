@@ -18,11 +18,6 @@ implementation("androidx.navigation:navigation-ui:$nav_version")
 
 
 
-## Demo
-
-Insert gif or link to demo
-
-
 ## Steps
 Add a NavHostFragment to activity_main.xml
 
