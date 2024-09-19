@@ -5,7 +5,7 @@
     android:id="@+id/nav_graph"
     app:startDestination="@id/fragmentA">
 
-<!--    this is basically the graph where you will add new fragments -->
+<!--    this is basically the graph , where you will add new fragments -->
 <!--    setup actions(transactions)-->
 
     <fragment
