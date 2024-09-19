@@ -1,4 +1,4 @@
-This project demonstrates how to set up and use Android Jetpack's Navigation Component with Kotlin. It focuses on navigating between fragments within a single activity.
+This project demonstrates how to set up and use Android Navigation Component with Kotlin. It focuses on navigating between fragments within a single activity.
 ## Features
 
 - Kotlin-based navigation between fragments
