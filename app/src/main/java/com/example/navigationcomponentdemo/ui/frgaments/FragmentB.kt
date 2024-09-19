@@ -33,9 +33,9 @@ class FragmentB : Fragment() {
         val leftAnimation = NavOptions.Builder()
             .setLeftSlideAnimation()
             .build()
-        //this is for receiving the information passed from source Fragment 
-        val textReceive = arguments?.getString("fromFragmentA")
         val bundle = Bundle()
+        //this is for receiving the information passed from source Fragment
+        val textReceive = arguments?.getString("fromFragmentA")
         binding?.welcomeTxt?.text = textReceive
         binding?.btnBackToFragA?.setOnClickListener {
             //For moving back to the source fragment

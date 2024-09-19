@@ -35,6 +35,12 @@ val bundle = Bundle()
 bundle.putString("fromFragmentA" , "Welcome to Fragment B")
 findNavController().navigate(R.id.action_fragmentA_to_fragmentB,bundle)
 ```
+Arguments receiving in the destination fragment
+```javascript
+val textReceive = arguments?.getString("fromFragmentA")
+binding?.welcomeTxt?.text = textReceive
+```
+
 Use of animations during transaction (optional)
 ```javascript
 fun NavOptions.Builder.setFadeAnimation(): NavOptions.Builder {
