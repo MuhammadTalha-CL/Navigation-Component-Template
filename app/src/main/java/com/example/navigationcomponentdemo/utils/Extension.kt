@@ -83,6 +83,7 @@ suspend fun <T> safeApiCall(apiToBeCalled: suspend () -> Response<T>): BGStateHo
 
 fun isNetworkAvailable(context: Context): Boolean {
     val connectivityManager =
+
         context.getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
 
     if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
