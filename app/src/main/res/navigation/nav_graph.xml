@@ -31,7 +31,7 @@
     </fragment>
     <fragment
         android:id="@+id/fragmentC"
-        android:name="com.example.navigationcomponentdemo.ui.frgaments.FragmentC"
+        android:name="com.example.navigationcomponentdemo.ui.frgaments.creditcard.CreditCardFragment"
         android:label="fragment_c"
         tools:layout="@layout/fragment_c" />
 </navigation>

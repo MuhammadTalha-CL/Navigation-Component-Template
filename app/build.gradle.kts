@@ -51,8 +51,17 @@ dependencies {
 
 
     //Navigation Component Dependency
-    val nav_version = "2.8.0"
-    implementation("androidx.navigation:navigation-fragment:$nav_version")
-    implementation("androidx.navigation:navigation-ui:$nav_version")
+    implementation(libs.androidx.navigation.fragment)
+    implementation(libs.androidx.navigation.ui)
+    // retrofit
+    implementation (libs.retrofit)
+    // gson converter
+    implementation (libs.converter.gson)
+    //logging interceptors
+    implementation (libs.logging.interceptor)
+    //LifeCycle for view models
+    implementation (libs.androidx.lifecycle.viewmodel.ktx)
+    implementation (libs.androidx.lifecycle.livedata.ktx)
+
 
 }
